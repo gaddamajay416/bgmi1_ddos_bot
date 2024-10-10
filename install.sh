@@ -8,7 +8,7 @@ cat <<EOL > .devcontainer/devcontainer.json
             "version": "latest"
         }
     },
-    "postStartCommand": "python3 /workspaces/REPO-NAME/raj.py",
+    "postStartCommand": "python3 /workspaces/raj/raj.py",
     "customizations": {
         "vscode": {
             "settings": {
